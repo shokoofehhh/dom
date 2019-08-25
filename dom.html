@@ -3,14 +3,11 @@
 <body>
 <p> welcome</p>
 <div >
-<h1 id="test" >hi there</h1>
-<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages</p>
+<h1 id="test"> css</h1>
+<p id="p1">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages</p>
 </div>
-<button onclick="tst()">click me</button>
-<script>
-function tst(){
-document.getElementById("test").innerHTML="css";
-}
-</script>
+<input type="button" value="hide" onclick="document.getElementById('test').style.visibility='hidden'">
+<button type="button" onclick="document.getElementById('test').style.color='violet'">change color</button>
+<input type="button" value="change font" onclick="document.getElementById('p1').style.fontFamily='Arial'";
 </body>
-</html>
+  </html>
